@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Matthew Feil | CS Portfolio</title>
+  <meta name="description" content="Digital portfolio showcasing projects, coursework, and achievements." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="topbar">
+        <div class="brand">
+          <div class="avatar" aria-hidden="true">MF</div>
+          <div>
+            <h1>Matthew Feil</h1>
+            <p class="subtitle">Computer Science Student • Entry-Level IT / Software</p>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <a href="#projects">Projects</a>
+          <a href="#coursework">Coursework</a>
+          <a href="#achievements">Achievements</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <div class="hero">
+        <p class="blurb">
+          I’m a CS student building real-world projects in web development, systems programming, and tooling.
+          This site highlights selected GitHub repos, coursework, and readiness for internships / entry-level roles.
+        </p>
+
+        <div class="buttons">
+          <a class="btn primary" href="assets/resume.pdf" download>Download Resume (PDF)</a>
+          <a class="btn" href="https://github.com/mattf7171" target="_blank" rel="noreferrer">GitHub</a>
+          <!-- Optional: add LinkedIn if you have it -->
+          <!-- <a class="btn" href="https://www.linkedin.com/in/YOURNAME" target="_blank" rel="noreferrer">LinkedIn</a> -->
+        </div>
+
+        <div class="quick">
+          <div class="quick-item">
+            <div class="quick-label">Focus</div>
+            <div class="quick-value">Web apps, Linux/C, systems & networking</div>
+          </div>
+          <div class="quick-item">
+            <div class="quick-label">Strengths</div>
+            <div class="quick-value">Debugging, documentation, practical builds</div>
+          </div>
+          <div class="quick-item">
+            <div class="quick-label">Location</div>
+            <div class="quick-value">Utah, USA</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>Selected work with links to code and summaries of what I contributed.</p>
+        </div>
+
+        <div class="grid">
+          <!-- Project 1 -->
+          <article class="card">
+            <div class="card-head">
+              <h3>ZFS Backup GUI</h3>
+              <span class="tag">Web Tooling</span>
+            </div>
+
+            <!-- Optional screenshot -->
+            <!-- <img class="thumb" src="assets/zfsbackupgui.png" alt="Screenshot of ZFS Backup GUI" /> -->
+
+            <p class="card-desc">
+              A web interface to manage ZFS backups/snapshots and related automation workflows.
+            </p>
+
+            <ul class="bullets">
+              <li>Designed a dashboard-style UI to make backup operations easier to manage.</li>
+              <li>Implemented features around snapshot visibility, configuration, and operational workflows.</li>
+              <li>Focused on making the tool practical for real environments (clear status + logging).</li>
+            </ul>
+
+            <div class="stack">
+              <span class="pill">Node</span>
+              <span class="pill">Express</span>
+              <span class="pill">React (or UI)</span>
+              <span class="pill">Linux/ZFS</span>
+            </div>
+
+            <div class="links">
+              <a href="https://github.com/mattf7171/zfsBackupGUI" target="_blank" rel="noreferrer">Repo</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card">
+            <div class="card-head">
+              <h3>TheBugSlayers</h3>
+              <span class="tag">Multi-Project Repo</span>
+            </div>
+
+            <!-- Optional screenshot -->
+            <!-- <img class="thumb" src="assets/bugslayers.png" alt="Screenshot or collage of TheBugSlayers projects" /> -->
+
+            <p class="card-desc">
+              A repository containing multiple smaller projects (4 total), showing variety across features and builds.
+            </p>
+
+            <ul class="bullets">
+              <li>Built and organized multiple deliverables in one repo with consistent structure.</li>
+              <li>Practiced shipping complete mini-projects (features, fixes, cleanup).</li>
+              <li>Demonstrates iterative development and troubleshooting across different tasks.</li>
+            </ul>
+
+            <div class="stack">
+              <span class="pill">Varies</span>
+              <span class="pill">Team/Collab</span>
+              <span class="pill">Git</span>
+            </div>
+
+            <div class="links">
+              <a href="https://github.com/mattf7171/TheBugSlayers" target="_blank" rel="noreferrer">Repo</a>
+            </div>
+
+            <div class="note">
+              Tip: In your README, list the 4 projects with short summaries so viewers can quickly understand them.
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card">
+            <div class="card-head">
+              <h3>CS-4800 Project</h3>
+              <span class="tag">Systems Programming</span>
+            </div>
+
+            <!-- Optional screenshot -->
+            <!-- <img class="thumb" src="assets/cs4800.png" alt="Terminal output or diagram for CS-4800 Project" /> -->
+
+            <p class="card-desc">
+              A systems-focused project exploring inter-process communication and performance/behavior in Linux.
+            </p>
+
+            <ul class="bullets">
+              <li>Implemented producer/consumer style communication using multiple IPC approaches.</li>
+              <li>Measured behavior/performance and validated correctness with repeatable runs.</li>
+              <li>Strengthened skills in C, synchronization, and debugging concurrency issues.</li>
+            </ul>
+
+            <div class="stack">
+              <span class="pill">C</span>
+              <span class="pill">Linux</span>
+              <span class="pill">PThreads</span>
+              <span class="pill">IPC</span>
+            </div>
+
+            <div class="links">
+              <a href="https://github.com/mattf7171/CS-4800-Project" target="_blank" rel="noreferrer">Repo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="coursework" class="section alt">
+      <div class="container">
+        <div class="section-title">
+          <h2>Coursework</h2>
+          <p>Relevant classes and areas I’ve worked in.</p>
+        </div>
+
+        <div class="columns">
+          <div class="col card-lite">
+            <h3>Systems & Low-Level</h3>
+            <ul class="list">
+              <li>Operating Systems</li>
+              <li>Linux / C Programming</li>
+              <li>Concurrency / PThreads</li>
+              <li>Inter-Process Communication</li>
+            </ul>
+          </div>
+
+          <div class="col card-lite">
+            <h3>Software & Web</h3>
+            <ul class="list">
+              <li>Software Engineering</li>
+              <li>Web Development</li>
+              <li>Databases / SQL</li>
+              <li>Version Control (Git/GitHub)</li>
+            </ul>
+          </div>
+
+          <div class="col card-lite">
+            <h3>Networking & IT</h3>
+            <ul class="list">
+              <li>Packet Analysis / Wireshark</li>
+              <li>Client/Server Concepts</li>
+              <li>Security Basics</li>
+              <li>Troubleshooting & Support</li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="small">
+          (Edit the lists to match your transcript. Keep it short and relevant.)
+        </p>
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Achievements</h2>
+          <p>Highlights that support professional readiness.</p>
+        </div>
+
+        <div class="card wide">
+          <ul class="list">
+            <li>Built and shipped multiple complete coursework projects with documented repos.</li>
+            <li>Hands-on experience with Linux tooling, debugging, and iterative improvement.</li>
+            <li>Add items like: Dean’s List, scholarships, certifications, leadership, etc.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Best ways to reach me.</p>
+        </div>
+
+        <div class="contact">
+          <div class="card wide">
+            <p class="contact-line">
+              <strong>Email:</strong>
+              <a href="mailto:youremail@example.com">youremail@example.com</a>
+            </p>
+            <p class="contact-line">
+              <strong>GitHub:</strong>
+              <a href="https://github.com/mattf7171" target="_blank" rel="noreferrer">github.com/mattf7171</a>
+            </p>
+            <p class="contact-line">
+              <strong>LinkedIn:</strong>
+              <span class="muted">Add when ready (recommended)</span>
+            </p>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p>© <span id="year"></span> Matthew Feil • Built with HTML/CSS • Hosted on GitHub Pages</p>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
